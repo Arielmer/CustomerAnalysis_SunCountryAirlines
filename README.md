@@ -1,5 +1,4 @@
-# Airlines Customer Segmentation Analysis
- # Sun Country Airlines Customer Segmentation Analysis
+# Sun Country Airlines Customer Segmentation Analysis
 
 ## 📌 Project Purpose
 Sun Country Airlines seeks to enhance its marketing strategies by understanding customer behavior through data-driven segmentation. This project applies **K-Means clustering** to identify distinct customer groups, enabling more effective targeting and improved customer experience.
@@ -14,6 +13,18 @@ We used the following datasets for analysis:
 - **Customer Data Dictionary** – Provides definitions for each variable in the dataset.
 
 The **Clustering Data** was used for customer segmentation analysis.
+
+### **📖 Data Dictionary**
+| Column Name            | Description |
+|------------------------|-------------|
+| `uid`                 | Unique identifier for each customer |
+| `age_group`           | Categorized age range of the customer |
+| `BookingChannel`      | Method used for booking (Website, App, etc.) |
+| `TripType`            | Whether the customer booked a round-trip or one-way ticket |
+| `UflyMembership`      | Indicates if the customer is a member of the loyalty program |
+| `DaysPreBooked`       | Number of days the booking was made in advance |
+| `BookedClass`         | The class of service booked (Economy, Business, etc.) |
+| `group_size`          | Number of passengers in the booking group |
 
 ---
 
@@ -102,21 +113,3 @@ This project successfully segmented Sun Country Airlines’ customers using **K-
 - **`customer_data_dictionary.csv`** – Column definitions.
 - **`clustering_analysis.py`** – Python script for clustering and visualization.
 - **`README.md`** – Project documentation.
-
----
-
-## 📢 Authors & Acknowledgments
-- **Team 14A**: Hoonyoung Jung, Ariel Liang, Mingzhu Pan, Brandon Phan
-- **Instructor**: Professor Xin
-- **University**: BANA 200, Fall 2024
-
-Special thanks to Sun Country Airlines for providing datasets for this study!
-
----
-
-## 📌 Future Enhancements
-- Implementing alternative clustering techniques (DBSCAN, Hierarchical Clustering).
-- Exploring predictive models for customer retention.
-- Integrating real-time data for dynamic customer segmentation.
-
-For contributions or inquiries, feel free to submit a pull request or contact the team. 🚀
